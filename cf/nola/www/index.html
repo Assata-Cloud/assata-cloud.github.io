@@ -1,1 +1,17 @@
-alert('ABORT!');
+var a =
+{
+	click: function (e)
+	{
+		e.preventDefault();
+		
+		window.location = "http://www.google.com";
+		
+		return false;
+	}
+	ssata: function ()
+	{
+		$('#assata').click(a.click);
+	}
+};
+
+$(a.ssata);
